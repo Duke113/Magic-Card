@@ -1,0 +1,43 @@
+body {
+    background: #212534;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+}
+
+.card {
+    border-radius: 6px;
+    max-width: 300px;
+    width: 200px;
+    height: 250px;
+    background: #191c29;
+    color: #191c29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: cursive;
+    cursor: pointer;
+    box-shadow: 0 0 100px 10px #f0f;
+    border: 2px solid white;
+}
+
+
+
+
+.card:hover {
+    color: rgb(88 199 250 / 100%);
+    transition: 1s;
+    border: none;
+}
+
+
+
